@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include orax_ksa *.css
+recursive-include orax_ksa *.csv
+recursive-include orax_ksa *.html
+recursive-include orax_ksa *.ico
+recursive-include orax_ksa *.js
+recursive-include orax_ksa *.json
+recursive-include orax_ksa *.md
+recursive-include orax_ksa *.png
+recursive-include orax_ksa *.py
+recursive-include orax_ksa *.svg
+recursive-include orax_ksa *.txt
+recursive-exclude orax_ksa *.pyc

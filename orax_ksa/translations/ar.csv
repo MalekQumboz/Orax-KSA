@@ -1,0 +1,446 @@
+User,المستخدم
+Budget Against,الموازنة مقابل
+Budget List,قائمة الموازنة
+Budget Variance Report,تقرير إنحرافات الموازنة
+Budget cannot be assigned against Group Account {0},لايمكن أسناد الموازنة للمجموعة Account {0}
+Cost Center and Budgeting,مركز التكلفة والموازنة
+Define budget for a financial year.,تحديد موازنة السنة المالية
+Total Budget,الموازنة الإجمالية
+Budget,موازنة
+Action if Annual Budget Exceeded on MR,الإجراء إذا تجاوزت الموازنة السنوية على الدخل الشهري
+Action if Accumulated Monthly Budget Exceeded on MR,الإجراء في حالة تجاوز الموازنة الشهرية المتراكمة على MR
+Action if Annual Budget Exceeded on PO,الإجراء إذا تجاوزت الموازنة السنوية على أمر الشراء
+Action if Accumulated Monthly Budget Exceeded on PO,أجراء في حال تجاوزت الموازنة الشهرية المتراكمة طلب الشراء
+Action if Annual Budget Exceeded on Actual,أجراء في حال تجاوزت الموازنة السنوية الموازنة المخصصة مسبقا
+Action if Accumulated Monthly Budget Exceeded on Actual,أجراء في حال تجاوزت الموازنة الشهرية المتراكمة للموازنة الفعلية
+Budget Accounts,حسابات الموازنة
+Budget Account,حساب الموازنة
+Budget Amount,قيمة الموازنة
+Total Estimated Budget,مجموع الموازنة التقديرية
+Budget Detail,تفاصيل الموازنة
+Clear filters,حذف الفلتر
+Clear values,وحذف القيم
+Clear,حذف
+Clear Filters,حذف الفلتر
+Submit,تأكيد
+Contact & Address,تواصل & عناوين
+Connections,روابط
+Is Rate Adjustment Entry (Debit Note),هو إدخال تعديل السعر (ملاحظة دين)
+Is Cash or Non Trade Discount,هو خصم نقدي أو غير تجاري
+Dispatch Address Name,اسم وعنوان المرسل
+Amount Eligible for Commission,المبلغ المؤهل للعمولة
+You created this,قمت بإنشاء هذا
+You last edited this,قمت بتعديل هذا آخر مرة
+Create a Reminder,قم بإنشاء تذكير
+Remind At,تذكير في
+Remind Me In,تذكير بعد
+emind Me,تذكرني
+List View,عرض القائمة
+Draft,مسودة
+Submitted,مُعمد
+My Profile,الملف الشخصي
+My Settings,إعداداتي
+Toggle Full Width,تبديل للعرض الكامل
+Toggle Theme,تبديل الثيم
+Log out,الخروج
+Overview,نظره عامه
+No activities to show,لا توجد أنشطة لإظهارها
+Rank,الرتبة
+Monthly Rank,الرتبة الشهرية
+Basic Info,معلومات اساسية
+Your Shortcuts,اختصاراتك
+Reports & Masters,الرئيسية & التقارير
+Tax Detail,التفاصيل الضريبية
+Cost Center Allocation,تخصيص مركز التكلفة
+Bank Reconciliation Tool,أداة التسوية المصرفية
+KSA VAT Report,تقرير ضريبة القيمة المضافة السعودية
+KSA VAT Setting,إعداد ضريبة القيمة المضافة السعودية
+Items & Pricing,السلع والأسعار
+Items to Order and Receive,السلع التي يجب طلبها واستلامها
+Territory Wise Sales,مبيعات الاقليم
+CRM Settings,إعدادات إدارة علاقات العملاء (CRM)
+Prospect,احتمال
+Sales Pipeline Analytics,تحليلات المبيعات
+Opportunity Summary by Sales Stage,ملخص الفرصة حسب مرحلة المبيعات
+Company Name In Arabic ,اسم الشركة بالعربي
+Buying & Selling Settings,إعدادات البيع والشراء 
+HR & Payroll Settings,إعدادات الموارد البشرية والرواتب 
+Default Payment Discount Account,حساب خصم الدفع الافتراضي
+Unrealized Profit / Loss Account,حساب الربح / الخسارة غير المحقق 
+Default Provisional Account,الحساب المؤقت الافتراضي 
+Enable Provisional Accounting For Non Stock Items,تمكين المحاسبة المؤقتة للبنود غير المخزنة 
+Default In-Transit Warehouse,المستودع الافتراضي العابر 
+Fixed Asset Defaults,افتراضات الأصول الثابتة 
+Internal Customer,العميل الداخلي 
+Primary Address and Contact,العنوان الرئيسي والاتصال
+Default Receivable Accounts,حسابات القبض الافتراضية
+Supplier Invoice,فاتورة المورد 
+Incoterm,التجارة الدولية
+Company Shipping Address ,عنوان شحن الشركة
+Internal Supplier,مورد داخلي
+Supplier Name in Arabic,اسم المورد بالعربية
+Primary Address and Contact,العنوان الرئيسي والاتصال
+Supplier Primary Contact ,جهة الاتصال الأساسية بالمورد 
+Supplier Primary Address ,عنوان المورد الأساسي
+Setting the account as a Company Account is necessary for Bank Reconciliation ,يعد تعيين الحساب كحساب شركة ضروريًا للتسوية المصرفية
+Main Cost Center,مركز التكلفة الرئيسي
+Cost Center Allocation Percentages,نسب تخصيص مركز التكلفة
+KSA VAT,ضريبة القيمة المضافة في السعودية
+Company Billing Address,عنوان فواتير الشركة
+Supplier Contact,الاتصال بالمورد
+Terms & Conditions,البنود و الشروط
+Order Status,حالة الطلب
+Additional Info,معلومات إضافية
+Quotation Number,رقم عرض السعر
+Inventory Settings,إعدادات الجرد
+Allow Sales,السماح بالمبيعات
+Grant Commission,عمولة المنحة
+Minimum Net Rate ,الحد الأدنى للمعدل الصافي 
+Maximum Net Rate ,الحد الأقصى للمعدل الصافي
+Make Item Group visible in website,جعل مجموعة العناصر مرئية في موقع الويب
+Min Qty (As Per Stock UOM),الحد الأدنى للكمية (حسب المخزون UOM)
+Max Qty (As Per Stock UOM),الكمية القصوى (حسب المخزون UOM)
+Items to Order and Receive,العناصر المطلوب طلبها واستلامها
+Hiring Count ,عدد طلبات التوظيف
+Attrition Count,عدد التناقص
+Hiring vs Attrition Count ,التوظيف مقابل عدد التناقص
+HR Dashboard,لوحة تحكم الموارد البشرية
+Recruitment Dashboard,لوحة معلومات التوظيف
+Employee Lifecycle Dashboard,لوحة دورة حياة الموظف
+Attendance Dashboard,لوحة معلومات الحضور
+Expense Claims Dashboard,لوحة مطالبات المصاريف
+Employee Exits ,خروج الموظف
+Employees Working on a Holiday,الموظفون الذين يعملون في عطلة 
+Company Details,تفاصيل الشركة
+Joining,انضمام
+Attendance & Leaves,الحضور والغياب
+Salary Currency,عملة الراتب
+Cost to Company (CTC),تكلفة الشركة (CTC)
+Passport Details,تفاصيل جواز السفر
+Profile,التعريف
+Feedback,ملاحظات وتعليقات
+Repay Unclaimed Amount from Salary,سداد المبلغ غير المطالب به من الراتب
+Consolidate Leave Types,توحيد أنواع الإجازات
+Total Employees ,عدد الموظفين
+Employee Exits (This Year) ,خروج الموظفين (هذا العام)
+Employees Relieving (Next Quarter),إعفاء الموظفين (الربع القادم)
+New Hires (This Year) ,الموظفون الجدد (هذا العام)
+Employees Joining (Next Quarter),انضمام موظفين (الربع القادم)
+Employees by Age,الموظفين حسب العمر
+Gender Diversity Ratio,نسبة التنوع بين الجنسين
+Employees by Type,الموظفين حسب النوع
+Employees by Grade,الموظفين حسب الدرجة
+Employees by Branch,الموظفين حسب الفرع
+Total Present (This Month),إجمالي الحاضر (هذا الشهر)
+Total Absent (This Month),إجمالي الغائبين (هذا الشهر)
+Late Entry (This Month),الدخول المتأخر (هذا الشهر)
+Early Exit (This Month),الخروج المبكر (هذا الشهر)
+Attendance Count,عدد الحضور
+Department wise Timesheet Hours,ساعات الدوام في القسم
+Separations (This Month),حالات انتهاء الخدمة (هذا الشهر)
+Onboardings (This Month),تأهيل الموظفين الجدد (هذا الشهر)
+Transfers (This Month),التحويلات (هذا الشهر)
+Promotions (This Month),العروض الترويجية (هذا الشهر)
+Trainings (This Month),التدريبات (هذا الشهر)
+Training Type,نوع التدريب
+Grievance Type,نوع التظلم
+Y-O-Y Promotions,الاساس السنوي للترقيات
+Y-O-Y Transfers,التحويلات السنوية
+Job Openings,فرص العمل
+Total Applicants (This month),إجمالي المتقدمين (هذا الشهر)
+Rejected Job Applicants,المتقدمين للوظيفة المرفوضين
+Accepted Job Applicants,المتقدمين للوظيفة المقبولين
+Applicant-to-Hire Percentage,نسبة المقبولين من مقدمين طلبات التوظيف
+Job Offers (This Month),عروض العمل (هذا الشهر)
+Time to Fill,وقت الملء
+Job Offer Acceptance Rate,معدل قبول عرض العمل
+Job Applicant Source,مصدر طالب الوظيفة
+Job Applicant Pipeline,خط التقدم للمتقدمين للوظائف
+Job Application Status,حالة طلب الوظيفة
+Job Applicants by Country,المتقدمون للوظيفة حسب الدولة
+Interview Status,حالة المقابلة
+Job Offer Status,حالة عرض العمل
+Job Application Frequency,تكرار طلب الوظيفة
+Expense Claims (This Month),مطالبات المصاريف (هذا الشهر)
+Approved Claims (This Month),المطالبات المعتمدة (هذا الشهر)
+Rejected Claims (This Month),المطالبات المرفوضة (هذا الشهر)
+Expense Claims,مطالبات بالنفقات
+Employee Advance Status,حالة الموظف المتقدمة
+Department wise Expense Claims,مطالبات النفقات الإدارية
+Shift & Attendance,الحضور والانصراف
+Attendance Count,عدد الحضور
+Shifts,المناوبات
+Retirement Age (In Years),سن التقاعد (بالسنوات)
+Employee Naming By,تسمية الموظف بواسطة
+Employee records are created using the selected option,يتم إنشاء سجلات الموظفين باستخدام الخيار المحدد
+Standard Working Hours,ساعات العمل القياسية
+Reminders,تذكير
+Birthdays,أعياد الميلاد
+Work Anniversaries,احتفالات الذكرى السنوية للعمل
+Set the frequency for holiday reminders,اضبط معدل تكرار التذكيرات بالعطلات
+Leave and Expense Claim Settings,إعدادات مطالبة الإجازة والمصروفات
+Send Leave Notification,إرسال إشعار الإجازة
+Restrict Backdated Leave Application,تقييد طلب الإجازة بأثر رجعي
+Send Interview Feedback Reminder,إرسال تذكير ملاحظات المقابلة
+Send Interview Reminder,إرسال تذكير المقابلة
+Employee Exit Settings,إعدادات خروج الموظف
+Exit Questionnaire Web Form,استبيان الخروج (نموذج ويب)
+Exit Questionnaire Notification Template,قالب اشعار استبيان الخروج
+Interviews (This Week),المقابلات (هذا الأسبوع)
+Interview,مقابلة
+Staffing Details,تفاصيل التوظيف
+Job Requisition,طلب الوظيفة
+No of. Positions,رقم المنصب
+Expected Compensation,التعويض المتوقع
+Requested By ,بتوصية من
+Timelines,الجداول الزمنية
+Expected By ,متوقع بحلول
+Publish Salary Range,نشر نطاق الراتب
+Lower Range ,المدى المنخفض
+Upper Range,النطاق العلوي
+Interview Summary ,ملخص المقابلة
+No Interview has been scheduled.,لم يتم تحديد موعد مقابلة.
+Applicant Rating,تصنيف مقدم الطلب
+Source and Rating,المصدر والتصنيف
+Resume Link,رابط السيرة الذاتية (المختصرة )
+Salary Expectation ,توقع الراتب
+First Name,الاسم الأول
+For Designation,للتعيين
+Referral Details ,تفاصيل الإحالة
+Current Employer,صاحب العمل الحالي
+Current Job Title,المسمي الوظيفي الحالي
+Referrer Details,تفاصيل المُحيل
+Is Applicable for Referral Bonus,ينطبق على مكافأة الإحالة
+Additional Information,معلومات إضافية
+Why is this Candidate Qualified for this Position?,لماذا هذا المرشح مؤهل لهذا المنصب؟
+Work References,مراجع العمل
+Interviews,المقابلات
+Interview Type,نوع المقابلة
+Interview Round,مرحلة المقابلة
+Round Name,اسم المرحلة
+Interviewers,المحاورون
+Expected Average Rating,متوسط ​​التقييم المتوقع
+Expected Skillset,مجموعة المهارات المتوقعة
+Scheduled On,من المقرر في
+Interview Feedback,ملاحظات المقابلة
+Average Rating,متوسط ​​تقييم
+Interview,مقابلة
+Interviewer,المحاور
+Skill Assessment ,تقييم المهارات
+Onboarding,تأهيل الموظفين
+Employee Grievance,شكوى الموظف
+New Hires (This Month),الموظفون الجدد (هذا الشهر)
+Exits (This Month),الموظفون الخارجون (هذا الشهر)
+Trainings (This Week),التدريبات (هذا الأسبوع)
+Onboarding Begins On ,يبدأ التأهيل
+Onboarding Activities ,أنشطة التأهيل
+Journey,رحلة الموظف
+Set the properties that should be updated in the Employee master on promotion submission ,قم بتعيين الخصائص التي يجب تحديثها في الموظف الرئيسي عند تقديم الترقية
+Add Employee Property,اضافة ممتلكات الموظف
+Grievanc,التظلم
+Date,تاريخ
+Grievance Details ,تفاصيل التظلم
+Grievance Against Party ,مظلمة ضد
+Associated Document Type ,نوع المستند المرتبط
+Grievance Against,التظلم ضد
+Associated Document ,وثيقة مرتبطة
+Investigation Details ,تفاصيل التحقيق
+Cause of Grievance ,سبب التظلم
+Employee Responsible ,الموظف المسؤول
+Separation Begins On ,يبدأ الفصل
+Separation Activities ,أنشطة الفصل
+Full and Final Statement,البيان الكامل والنهائي
+Assets Allocated ,الأصول المخصصة
+Exit Interview,مقابلة الخروج
+Exit Questionnaire ,استبيان الخروج
+Questionnaire Email Sent,تم إرسال الاستبيان بالبريد الإلكتروني
+Interview Details,تفاصيل المقابلة
+Final Decision ,قرار نهائي
+Exit Interview Pending,مقابلة الخروج معلقة
+Exit Questionnaire Pending,استبيان الخروج معلق
+Employee Performance Feedback,ملاحظات أداء الموظف
+Reviewer,المراجع
+Added On ,أضيف في
+Rating Criteria,معايير التصنيف
+Criteria based on which employee should be rated in Performance Feedback and Self Appraisal,المعايير التي تستند إلى الموظف الذي يجب أن يتم تقييمه في ملاحظات الأداء والتقييم الذاتي
+KRA,منطقة النتائج الرئيسية (KRA)
+Employee Feedback Criteria,معايير ملاحظات الموظف
+Promotion,ترقية
+Appraisal Cycle,دورة التقييم
+KRA vs Goals ,منطقة النتائج الرئيسية (KRA) مقابل الاهداف
+Rate Goals Manually,تقيم الاهداف يدويا
+Goal Completion (%),اكتمال الهدف (٪)
+Goal Score (weighted),نتيجة الهدف (مرجحة)
+Self Appraisal ,تقييم الذاتي
+Ratings,التقييمات
+Reflections,ملاحظات
+Cycle Name,اسم الدورة
+KRA Evaluation Method ,طريقة تقييم KRA
+Set optional filters to fetch employees in the appraisee list ,قم بتعيين عوامل تصفية اختيارية لجلب الموظفين في قائمة التقييم
+Appraisal Overview,نظرة عامة على التقييم
+Shift Type,نوع المناوبة
+Shift Assignmen,مهام المناوبة
+Set filters to fetch employees ,تعيين عوامل التصفية لجلب الموظفين
+Employee Hours Utilization Based On Timesheet,استخدام ساعات الموظف على أساس الجدول الزمني
+Project Profitability,ربحية المشروع
+Claims,المطالبات
+The date on which Salary Component with Amount will contribute for Earnings/Deduction in Salary Slip. ,التاريخ الذي سيساهم فيه مكون الراتب مع المبلغ في الأرباح / الخصم في قسيمة الراتب.
+Accounting Reports,التقارير المحاسبية
+Leave Period ,فترة الإجازة
+Leave Block List,الايام المحظور فيها الاجازة
+Consolidate Leave Types,توحيد أنواع الإجازات
+Leave Policy Assignment,تعيين سياسة الاجازة
+Assignment based on,الاحالة على اساس
+Effective From ,ساري المفعول من
+Effective To ,ساري المفعول الى
+Application,طلب
+Salary Payout,دفع الراتب
+Transactions & Report,المعاملات والتقرير
+Remove if Zero Valued,قم بإزالة إذا كانت القيمة صفر
+"If checked, the component will not be displayed in the salary slip if the amount is zero",إذا تم تحديده ، فلن يتم عرض المكون في قسيمة الراتب إذا كان المبلغ صفرًا
+Condition & Formula,الشرط والصيغة
+Earnings & Deductions,المستحقات والاستقطاعات
+Condition and Formula Help ,تعليمات الشرط والصيغة
+Base & Variable ,اساسي & متغير
+Payroll Payable Account ,حساب الرواتب المستحق
+Filter Employees,فلترة الموظفين
+Accounting & Payment,المحاسبة والدفع
+Incentive,حافز
+Bonus,مكافئة
+Auto Write Off Amount ,مبلغ الشطب التلقائي
+Loan Write Off will be automatically created on loan closure request if pending amount is below this limit,سيتم إنشاء شطب القرض تلقائيًا عند طلب إغلاق القرض إذا كان المبلغ المعلق أقل من هذا الحد
+Repayment Account,حساب السداد
+Disbursement Account ,حساب الصرف
+Debit Adjustment Amount ,قيد تسوية الخصم
+Credit Adjustment Amount ,مبالغ التسوية
+Show Currency Symbol on Right Side,إظهار رمز العملة على الجانب الأيمن
+Invoice and Billing,الفاتورة والدفع
+Delete Accounting and Stock Ledger Entries on deletion of Transaction,حذف إدخالات المحاسبة ودفتر الأستاذ عند حذف المعاملة
+Invoicing Features ,ميزات الفواتير
+Enable Common Party Accounting,قم بتمكين محاسبة الطرف المشتركة
+Enabling ensure each Purchase Invoice has a unique value in Supplier Invoice No. field,تمكين التأكد من أن كل فاتورة شراء لها قيمة فريدة في حقل رقم فاتورة المورد
+Automatically Fetch Payment Terms from Order,جلب شروط الدفع تلقائيًا من الطلب
+Payment Terms from orders will be fetched into the invoices as is,سيتم جلب شروط الدفع من الطلبات في الفواتير كما هي
+Enable Common Party Accounting,قم بتمكين محاسبة الطرف المشتركة
+Allow multi-currency invoices against single party account,السماح بفواتير متعددة العملات مقابل حساب طرف واحد
+Enabling this will allow creation of multi-currency invoices against single party account in company currency,سيسمح تمكين هذا بإنشاء فواتير متعددة العملات مقابل حساب طرف واحد بعملة الشركة
+Report Setting ,إعداد التقرير
+Enable Custom Cash Flow Format,تفعيل تنسيق التدفق النقدي المخصص
+Tax Settings ,إعدادات الضرائب
+Book Tax Loss on Early Payment Discount,سجل خسارة الضريبة على خصم السداد المبكر
+Split Early Payment Discount Loss into Income and Tax Loss,تقسيم خسارة خصم الدفع المبكر إلى الدخل وخسارة الضرائب
+Credit Limit Settings ,إعدادات حد الائتمان
+Role Allowed to Over Bill ,القاعدة المسموح به لأكثر من دفع
+Users with this role are allowed to over bill above the allowance percentage,يُسمح للمستخدمين الذين لديهم هذا القاعدة بزيادة الفاتورة فوق نسبة البدل
+Role allowed to bypass Credit Limit ,القاعدة المسموح به لتجاوز حد الائتمان
+POS Setting ,إعداد نقاط البيع 
+Create Ledger Entries for Change Amoun,إنشاء إدخالات دفتر الأستاذ لتغيير المبلغ
+"If enabled, ledger entries will be posted for change amount in POS transactions",في حالة التمكين ، سيتم ترحيل إدخالات دفتر الأستاذ لمبلغ التغيير في حركات نقاط البيع
+Asset Settings ,إعدادات الأصول
+Accounts Closing ,إغلاق الحسابات
+Period Closing Settings ,إعدادات إقفال الفترة
+Payroll Reports,تقارير الرواتب
+Deduction Reports,تقارير الاستقطاع
+Income Tax Computation,حساب ضريبة الدخل
+Consider Tax Exemption Declaration,ضع في اعتبارك إعلان الإعفاء الضريبي
+Tax & Benefits,الضرائب & الفوائد
+Tax Setup,إعداد الضرائب
+Exemption,الإعفاء
+Tax Exemption Declaration ,إقرار الإعفاء الضريبي
+Exemption Proofs ,إثباتات الإعفاء
+Benefits,فوائد
+Repayment Account ,حساب السداد
+Disbursement References,مراجع الصرف
+Loan Write Off,شطب القرض
+Write Off Details ,تفاصيل الشطب
+Loan Interest Report,تقرير فائدة القرض
+Loan Security Exposure,التعرض لأمن القرض
+Applicant-Wise Loan Security Exposure,تعثر القرض للمتقدمين
+Loan Security Exposure,تعثر القرض
+Is Template,هو نموذج
+Delayed Tasks Summary,ملخص المهام المؤجلة
+Customer Name in Arabic,اسم العميل بالعربية
+From Opportunity ,من فرصة
+Internal Customer ,العميل الداخلي
+Primary Address and Contact ,العنوان الرئيسي والاتصال
+Default Receivable Accounts ,حسابات القبض الافتراضية
+Receivable Accounts ,حسابات القبض
+Mention if a non-standard receivable account,اذكر ما إذا كان حساب الذمم المدينة غير قياسي
+Additional Info ,معلومات إضافية
+Terms & Conditions ,البنود و الشروط
+Issue a debit note with 0 qty against an existing Sales Invoice,قم بإصدار إشعار خصم بقيمة 0 مقابل فاتورة مبيعات موجودة
+Company Tax ID ,الرقم الضريبي للشركة
+Blanket Order,طلبات مفتوحة
+Inventory Settings ,إعدادات الجرد
+Allow Purchase,السماح بالشراء
+Grant Commission,عمولة المنحة
+Allow Sales,السماح بالمبيعات
+Make Item Group visible in website,جعل مجموعة العناصر مرئية في موقع الويب
+Product Bundle,حزمة المنتج
+Parent Item ,السلعة الرئيسية
+Min Qty (As Per Stock UOM) ,الحد الأدنى للكمية (حسب مخزون UOM)
+Max Qty (As Per Stock UOM) ,الكمية القصوى (حسب مخزون UOM)
+Threshold for Suggestion (In Percentage) ,عتبة الاقتراح (بالنسبة المئوية)
+Customer Defaults ,افتراضات العميل
+Item Price Settings ,إعدادات سعر العنصر
+Calculate Product Bundle Price based on Child Items' Rates,احسب سعر حزمة المنتج بناءً على أسعار العناصر الفرعية
+Transaction Settings ,إعدادات المعاملات
+Allow Item to be Added Multiple Times in a Transaction,السماح بإضافة العنصر عدة مرات في المعاملة
+Allow Sales Order Creation For Expired Quotation,السماح بإنشاء أمر مبيعات لعرض أسعار منتهي الصلاحية
+Enable Discount Accounting for Selling,تمكين محاسبة الخصم للبيع
+"If enabled, additional ledger entries will be made for discounts in a separate Discount Account",في حالة التمكين ، سيتم إجراء إدخالات دفتر الأستاذ الإضافية للخصومات في حساب خصم منفصل
+Over Order Allowance (%) ,بدل الطلب الزائد (٪)
+Percentage you are allowed to order more against the Blanket Order Quantity. For example: If you have a Blanket Order of Quantity 100 units. and your Allowance is 10% then you are allowed to order 110 units.,النسبة المئوية المسموح لك بطلب المزيد مقابل كمية الطلب الشاملة. على سبيل المثال: إذا كان لديك طلب شامل للكمية 100 وحدة. والمخصص الخاص بك هو 10٪ ثم يمكنك طلب 110 وحدة.
+Address in Arabic ,العنوان بالعربية
+Sales Partner Target Variance Based On Item Group,تباين هدف شريك المبيعات استنادًا إلى مجموعة الصنف
+Payment Terms Status for Sales Order ,حالة شروط الدفع لأمر المبيعات
+Quick Access,الوصول السريع
+Other Info,معلومات اخرى
+Company Shipping Address ,عنوان شحن الشركة
+Shipping Address Template ,قالب عنوان الشحن
+Company Billing Address ,عنوان فواتير الشركة
+Scan Mode,وضع المسح
+"If checked, picked qty won't automatically be fulfilled on submit of pick list.",إذا تم تحديده ، فلن يتم استيفاء الكمية المختارة تلقائيًا عند إرسال قائمة الاختيار.
+Prompt Qty,موجه الكمية
+Group Same Items,تجميع نفس العناصر
+Price List Defaults ,افتراضيات قائمة الأسعار
+Auto Insert Item Price If Missing,إدراج سعر العنصر تلقائيًا إذا كان مفقودًا
+Update Existing Price List Rate,تحديث سعر قائمة الأسعار الحالية
+Stock Validations ,التحقق من المخزون
+Stock Transactions Settings ,إعدادات معاملات المخزون
+Role Allowed to Over Deliver/Receive,الدور المسموح به للتوصيل / الاستلام
+Users with this role are allowed to over deliver/receive against orders above the allowance percentage,يُسمح للمستخدمين الذين لديهم هذا الدور بالتسليم / الاستلام مقابل الطلبات التي تزيد عن النسبة المئوية المسموح بها
+"The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units.",النسبة المئوية المسموح لك بتحويلها أكثر مقابل الكمية المطلوبة. على سبيل المثال ، إذا طلبت 100 وحدة ، وكان المخصص الخاص بك 10٪ ، فيُسمح لك بنقل 110 وحدة.
+Show Barcode Field in Stock Transactions,إظهار حقل الرمز الشريطي في معاملات المخزون
+Convert Item Description to Clean HTML in Transactions,تحويل وصف العنصر إلى HTML نظيف في المعاملات
+Quality Inspection Settings ,إعدادات فحص الجودة
+Action If Quality Inspection Is Rejected ,الإجراء إذا تم رفض استقصاء الجودة
+Serial & Batch Item ,المسلسل والدُفعات
+Serial & Batch Item Settings ,إعدادات المسلسل والدُفعات
+Disable Serial No And Batch Selector,تعطيل الرقم التسلسلي ومحدد الدُفعات
+Have Default Naming Series for Batch ID?,هل لديك سلسلة تسمية افتراضية لمعرف الدُفعة؟
+Stock Planning ,تخطيط المخزون
+Stock Closing ,إغلاق المخزون
+Control Historical Stock Transactions ,مراقبة معاملات المخزون التاريخية
+Role Allowed to Create/Edit Back-dated Transactions ,الدور مسموح به لإنشاء / تحرير المعاملات القديمة
+No stock transactions can be created or modified before this date.,لا يمكن إنشاء أو تعديل حركات الأسهم قبل هذا التاريخ.
+Stock transactions that are older than the mentioned days cannot be modified.,لا يمكن تعديل حركات المخزون الأقدم من الأيام المذكورة.
+"If mentioned, the system will allow only the users with this Role to create or modify any stock transaction earlier than the latest stock transaction for a specific item and warehouse. If set as blank, it allows all users to create/edit back-dated transactions.",إذا تم ذكر ذلك ، فسيسمح النظام فقط للمستخدمين الذين لديهم هذه الدور بإنشاء أو تعديل أي معاملة مخزون قبل آخر معاملة مخزون لعنصر ومستودع معين. إذا تم تعيينه على أنه فارغ ، فإنه يسمح لجميع المستخدمين بإنشاء / تحرير المعاملات القديمة.
+Default In-Transit Warehouse ,المستودع الافتراضي العابر
+Meter,متر
+Centimeter,سنتيمتر
+Box,كرتون
+Unit of Measure (UOM) ,وحدة القياس (UOM)
+Use Batch-wise Valuation,استخدم التقييم المجمّع
+Batch,الباتش
+Acceptance Criteria Value,قيمة معايير القبول
+Numeric,رقمي
+Minimum Value,الحد الأدنى للقيمة
+Maximum Value,القيمة القصوى
+Submit on Creation,تاكيد عند الانشاء
+Address,العنوان
+Tax Number,الرقم الضريبي
+Client,العميل
+"Terms, Conditions & Other Information",الشروط والأحكام والمعلومات الاخرى
+Total VAT,الضرائب والرسوم
+Grand Total,الاجمالي شامل الضريبة

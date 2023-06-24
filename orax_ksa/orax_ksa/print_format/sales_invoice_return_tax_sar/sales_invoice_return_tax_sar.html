@@ -1,0 +1,371 @@
+
+
+{%- from "templates/print_formats/standard_macros.html" import add_header -%}
+<div class="header">
+
+    {{letter_head}}
+<div class="sud-arabic-format body">
+    {% set company = frappe.get_doc("Company", doc.company)%}
+    {% if (doc.company_address) %}
+        {% set supplier_address_doc = frappe.get_doc('Address', doc.company_address) %}
+    {% endif %}
+    
+    {% if(doc.customer_address) %}
+        {% set customer_address = frappe.get_doc('Address', doc.customer_address ) %}
+    {% endif %}
+    {% set discount_amount_total = 0  %}
+    {% if doc.currency == 'SAR'%}
+      {% set currency_name = _("ريال سعودي") %}
+    {% endif %}  
+    {% if(doc.shipping_address_name) %}
+        {% set customer_shipping_address = frappe.get_doc('Address', doc.shipping_address_name ) %}
+    {% endif %}  
+    <div class="rep-header">
+      <div class="row">
+        <div class="col-9">
+      <div class="hed-left" >
+  
+            <div class="header-1" >
+                <p class="invoice-heading" style="text-align: center;">
+                  مردود فاتورة ضريبية - {{ _("Sales Invoice Tax SAR Return") }}</p>
+                
+                <p class="invoice-heading" style="text-align: center;">
+                  مردود فاتورة مبيعات نقدية        
+                </p></div>
+        </div>
+  
+            <div class="wrapper">
+                <table class="table-header-right  ">
+                      <tr>
+                        <td>رقم الفاتورة</td>
+                        {% if doc.name !='None' %}
+                        <td class="data-container">{{doc.name}}</td>
+                        {% endif %}
+                        <td>Invoice number</td>
+                      </tr>
+                    <tr>
+                        <td>تاريخ الفاتورة</td>
+                        <td class="data-container">{{doc.posting_date}}</td>
+                        <td>Invoice Date</td>
+                    </tr>
+                    <tr>
+                      
+                      <td>الوقت</td>
+                      <td class="data-container">{{doc.posting_time}}</td>
+                      <td>time</td>
+                    </tr>
+                    <tr>                  
+                    <td>المندوب</td>
+              <td class="data-container">{{ doc.owner }} </td>
+                    <td>user</td>
+                    </tr>
+                  <tr>
+                    <td>العملة</td>
+              <td class="data-container">{{ currency_name }} </td>
+                    <td>currency</td>
+                    </tr>
+                  
+                  </table>
+                  
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="hed-right">
+              <img class="qr-code" src="{{doc.ksa_einv_qr}}">
+            </div>
+          </div>
+          
+       </div>
+  </div>
+             
+  <div class="row">
+    <div class="column">
+      <table>
+        <tr>
+          <th colspan="2" style="border-left: 1px solid #fff">المورد</th>
+          
+          <th >Points</th>
+        </tr>
+        <tr>
+          {% if(supplier_address_doc) %}
+          <tr>
+            <td>{{ supplier_address_doc.address_line1}} </td>
+            <td>{{ supplier_address_doc.address_in_arabic}} </td>
+          </tr>
+          <tr>
+            <td>Phone: {{ supplier_address_doc.phone }}</td>
+            <td>هاتف : {{ supplier_address_doc.phone }}</td>
+          </tr>
+          <tr>
+            <td>Email: {{ supplier_address_doc.email_id }}</td>
+            <td>{{ supplier_address_doc.email_id }} : بريد الكتروني</td>
+          </tr>
+          {% endif %}
+         
+          <td>الاسم :</td>
+          <td>{{doc.company}}</td>
+          <td>Name</td>
+        </tr>
+        <tr>
+          <td>رقم المبنى</td>
+          <td></td>
+          <td>Building No</td>
+        </tr>
+        <tr>
+          <td>اسم الشارع</td>
+          <td></td>
+          <td>Street Name</td>
+        </tr>
+        <tr>
+          <td>الحي</td>
+          <td></td>
+          <td>District</td>
+        </tr>
+        <tr>
+          <td >المدينة</td>
+          <td></td>
+          <td>City</td>
+        </tr>
+        <tr>
+          <td>البلد</td>
+          <td></td>
+          <td>Country</td>
+        </tr>
+        <tr>
+          <td>الرمز البريدي</td>
+          <td></td>
+          <td>Postal Code</td>
+        </tr>
+        <tr>
+          <td>الرقم الاضافي للعنوان</td>
+          <td></td>
+          <td>AddiƟonal No</td>
+        </tr>
+        <tr>
+          <td>الرقم الضريبي</td>
+          <td>{{doc.company_tax_id}}</td>
+          <td>Vat Number</td>
+        </tr>
+          <tr>
+          <td>معرف اخر</td>
+          <td></td>
+          <td>Other Seller ID</td>
+        </tr>
+     
+      </table>
+    </div>
+    <div class="column">
+      <table>
+        <tr>
+          <th colspan="2" style="border-left: 1px solid #fff">العميل</th>
+          <th >Buyer</th>
+        </tr>
+     
+        <tr>
+            
+          <td>الاسم :</td>
+          <td>{{doc.customer_name}}</td>
+          <td>Name</td>
+        </tr>
+        <tr>
+          {% if(customer_address) %}
+          
+          <tr>
+          </tr>
+          <td>عنوان</td>
+          <td>{{ customer_address.address_in_arabic}} </td>
+          <td>Building No</td>
+        </tr>
+        <tr>
+          <td>اسم الشارع</td>
+          <td>{{ customer_address.address_line2}} </td>
+          
+          <td>Street Name</td>
+        </tr>
+        <tr>
+          <td>الحي</td>
+          <td>{{ customer_address.state}} </td>
+          <td>District</td>
+        </tr>
+        <tr>
+          <td>المدينة</td>
+          <td>{{ customer_address.city}} </td>
+          <td>City</td>
+        </tr>
+        <tr>
+          <td>البلد</td>
+          <td>{{ customer_address.county}} </td>
+          <td>Country</td>
+        </tr>
+        <tr>
+          <td>الرمز البريدي</td>
+          <td>{{ customer_address.pincode}} </td>
+          <td>Postal Code</td>
+        </tr>  
+        <tr>
+          <td>الرقم الاضافي للعنوان</td>
+          <td> </td>
+          <td>AddiƟonal No</td>
+        </tr>
+        <tr>
+          <td>الرقم الضريبي</td>
+          <td></td>
+          <td>Vat Number</td>
+        </tr>
+          <tr>
+          <td>معرف اخر</td>
+          <td></td>
+          <td>Other Seller ID</td>
+        </tr>
+        {% endif %}
+  
+      </table>
+    </div>
+   
+  </div>
+      <!--Dynamic Colspan for total row columns-->
+      {% set col = namespace(one = 2, two = 1) %}
+      {% set length = doc.taxes | length %}
+      {% set length = length / 2 | round %}
+      {% set col.one = col.one + length %}
+      {% set col.two = col.two + length %}
+    
+      {%- if(doc.taxes | length % 2 > 0 ) -%}
+        {% set col.two = col.two + 1 %}
+      {% endif %}
+      
+      <!-- Items -->
+      {% set total = namespace(amount = 0) %}
+      <table class="sudia-invoice-table">
+        <thead>
+          <tr>
+            <th>Item Name <br />اسم الصنف</th>
+            <th>
+            Unit price <br />
+            سعر الوحدة
+          </th>
+            <th>
+              Quantity <br />
+              الكمية
+            </th>
+            <th>
+              Texable Amount <br />
+              المبلغ الخاضع للضريبة
+            </th>
+            
+            <th>
+              Discount <br />
+              الخصم
+            </th>
+            <th>
+              Tax Rate <br/>نسبة الضريبة
+            </th>
+            <th>
+              Tax amount <br/>مبلغ الضريبة
+            </th>
+            
+            <th>
+              Total <br />
+              المجموع
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {%- for item in doc.items -%}
+          {% set total.amount = item.amount %}
+           
+          <tr>
+            <td>{{ item.item_code }}</td>
+            <td>{{ item.get_formatted("rate") }}</td>
+            <td>{{ item.qty }}</td>
+            <td>{{ item.get_formatted("amount") }}</td>
+            <td>{{item.discount_amount}}</td> 
+            {% if item.discount_amount > 0 %}
+            {% set total.amount = total.amount - item.discount_amount %}
+            {% set discount_amount_total = discount_amount_total + item.discount_amount  %}          
+            {% endif %}
+            {% for row in doc.taxes %}
+                  {% set data_object = json.loads(row.item_wise_tax_detail) %}
+                  <td>
+                     <div class="flex">
+                      {%- if(data_object[item.item_code][0])-%}
+                      <span>{{ frappe.format(data_object[item.item_code][0], {'fieldtype': 'Percent'}) }}</span>
+                      {%- endif -%}
+                      </div>
+                  </td>
+                  <td>
+                  <span>
+                    {%- if(data_object[item.item_code][1])-%}
+                        {{ frappe.format(data_object[item.item_code][1], {'fieldtype': 'Currency'}) }}</span>
+                        {% set total.amount = total.amount + data_object[item.item_code][1] %}
+                    {%- endif -%}
+                  </td>
+                  {% endfor %}
+            <td style="color:red;">{{  frappe.format(total.amount, {'fieldtype': 'Currency'}) }}</td>
+          </tr>
+          {%- endfor -%}
+        </tbody>
+        <tfoot>
+          </tfoot>
+      </table>
+   <table class="table-totlal-invoice">
+    {# 1 #}
+    <tr>
+      <th>إجمالي المبالغ</th>
+      <th>{{ currency_name }}</th>
+      <th class="ltr">Total Amount</th>
+    </tr>
+  
+    {# 2 #}
+    <tr>
+      <td>
+        {{ doc.get_formatted("total") }} 
+      </td>
+      
+      <td  class="rtl">
+        الإجمالي (باستثناء ضريبة القيمة المضافة)
+        </td>
+        <td class="ltr">
+          Total (Exluding VAT)
+        </td>
+        
+      </tr>
+      <tr>
+  
+        <td> {{discount_amount_total}}</td>
+        <td  class="rtl">إجمالي الخصومات</td>
+        <td class="ltr">Total Discount Amount </td>
+      </tr>
+      <tr>
+  
+        <td>{{ doc.get_formatted("grand_total") }}</td>
+        <td  class="rtl">إجمالي الخاضع لضريبة القيمة المضافة</td>
+        <td class="ltr">Total Taxable Amount (Exluding VAT)</td>
+      </tr>  
+    {# 3 #}
+      <tr>
+  
+      <td>
+       
+        {{ doc.get_formatted("total_taxes_and_charges") }}</td>
+    <td>
+      مجموع ضريبة القيمة المضافة(15%)
+    </td>
+    <td class="ltr">Total VAT(15%)</td>
+    </tr>
+    {# 4 #}
+    <tr>
+  
+      <td>{{ doc.get_formatted("grand_total") }}</td>
+      <td  class="rtl">إجمالي المبلغ المستحق</td>
+      <td class="ltr">Total Amount Due</td>
+    </tr>
+  
+   </table>
+             
+  
+  </div>
+<div class="footer">
+  {{ footer }}
+</div>
+</div>				
